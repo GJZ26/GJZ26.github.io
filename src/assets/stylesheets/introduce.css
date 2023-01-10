@@ -1,0 +1,120 @@
+.introduce {
+    background-color: var(--bg-color);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+}
+
+.info {
+    width: 45vw;
+    padding: 20px;
+}
+
+.practic-info {
+    display: flex;
+    justify-content: center;
+    width: 45vw;
+}
+
+.about-me {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.about-me-text {
+    margin: 12px 0 15px;
+}
+
+.flag {
+    width: 14px;
+    margin: 0px 12px;
+}
+
+table {
+    margin: 40px 0;
+    height: 40vh;
+}
+
+td:nth-child(odd) {
+    margin: 0;
+    border-bottom: 1px solid white;
+}
+
+.progress-bar {
+    overflow: hidden;
+    background-color: gray;
+    border-radius: 8px;
+    height: 20px;
+    width: 180px;
+    margin-bottom: 8px;
+}
+
+.progress {
+    background-color: rgb(32, 255, 47);
+    height: 100%;
+}
+
+.es {
+    width: 100%;
+    animation: es 500ms;
+}
+
+.en {
+    width: 80%;
+    animation: en 700ms;
+}
+
+.pt {
+    width: 60%;
+    animation: pt 900ms;
+}
+
+.workon{
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+@media (max-width:980px) {
+    .introduce {
+        flex-direction: column;
+    }
+
+    .info {
+        width: 80%;
+    }
+
+    .practic-info {
+        width: 100%;
+    }
+}
+
+@keyframes es {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes en {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+@keyframes pt {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 60%;
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "es": {
+        "greeting": "Hola, yo soy",
+        "career": "Programador web"
+    },
+    "en": {
+        "greeting": "Hi! I am",
+        "career": "Web developer"
+    }
+}
